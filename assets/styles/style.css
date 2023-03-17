@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.global {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  margin: 10px;
+}
+.salma {
+  margin: 10px;
+}
+.block {
+  background-image: url(../img/IMAGE.png);
+  background-repeat: no-repeat;
+  height: 720px;
+  width: 1280px;
+  border: 2px solid rgba(178, 24, 139, 0.079);
+  margin-left: 27px;
+}
+.doublephoto {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#long {
+  background-image: url(../img/long\ hair\ .png);
+  background-repeat: no-repeat;
+  height: 636px;
+  width: 636px;
+  margin-right: 10px;
+}
+#fluffy {
+  background-image: url(../img/fluffy.png);
+  background-repeat: no-repeat;
+  height: 636px;
+  width: 636px;
+  margin-left: 10px;
+}
+.shop {
+  width: 906px;
+
+  height: 144px;
+  top: 1500px;
+  margin-left: 200px;
+}
+
+.org {
+  margin-top: 300px;
+  margin-left: 200px;
+  font-family: "Shantell Sans", cursive;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  color: bisque;
+}
+.org2 {
+  margin-left: 200px;
+  font-family: "Shantell Sans", cursive;
+  color: bisque;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  margin-right: 300px;
+}
+
+button {
+  color: rgb(186, 42, 42);
+
+  height: 30px;
+  width: 70px;
+  background: transparent;
+  font-weight: lighter;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  opacity: 70%;
+  box-shadow: 0 0 10px;
+  top: 50px;
+  border-radius: 25px;
+}
+button:hover {
+  text-decoration: underline;
+  background-color: rgb(171, 155, 187);
+}
+
+.shopp {
+  margin-left: 200px;
+  color: blueviolet;
+}
+
+#home {
+  right: 330px;
+}
+#shop {
+  right: 260px;
+}
+#about {
+  right: 190px;
+}
+#jo {
+  right: 120px;
+}
+
+#cont {
+  right: 50px;
+}
+a:link {
+  color: deeppink;
+}
+a:visited {
+  color: orchid;
+}
+a:active {
+  color: deepskyblue;
+}
+a:hover {
+  text-decoration: double;
+}
+a:hover {
+  background-color: blueviolet;
+}
+shop:hover {
+  background-color: rgb(216, 135, 35);
+}
+#shopp:hover {
+  background-color: aqua;
+}
+.shop {
+  font-family: "Kalam", cursive;
+  font-size: larger;
+  font-weight: lighter;
+  font-style: normal;
+}
